@@ -2,6 +2,13 @@
 
 This project focuses on predicting loan default risk using advanced machine learning techniques. The goal is to assess credit risk and distinguish between high-risk and low-risk borrowers based on key features.
 
+## Project Overview
+- **Objective**: The goal is to predict credit risk by leveraging customer, loan, and bureau data.
+- **Datasets**:
+  - `customers.csv`: Contains customer demographics and other relevant features.
+  - `loans.csv`: Provides details about loans and their performance.
+  - `bureau_data.csv`: Contains external financial data related to customers from other financial institutions.
+
 ## Key Highlights
 - **High Accuracy Model**: Developed a credit risk prediction model with **93% accuracy** to identify potential loan defaulters.
 - **Imbalanced Data Handling**: Managed class imbalance using **SMOTE-Tomek** (a hybrid technique for over-sampling and under-sampling), achieving **94% recall** and an **F1-score of 0.71** for defaulters (class 1).
@@ -28,8 +35,3 @@ This project focuses on predicting loan default risk using advanced machine lear
 - **SMOTE-Tomek**: For balancing the dataset and improving recall for defaulters.
 - **Logistic Regression & WOE**: For model building and feature transformation.
 - **AUC, Gini, KS Statistics**: For evaluating model performance.
-les influencing credit default risk, providing insights into key drivers of risk.
-Tools and Techniques Used:
-SMOTE-Tomek: To balance the dataset and improve recall for defaulters.
-Logistic Regression & WOE: For model building and feature transformation.
-AUC, Gini, KS Statistics: For model evaluation.# Credit_Risk_Modelling_Clasification
